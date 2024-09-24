@@ -1,10 +1,26 @@
+body{
+    margin: 0px;
+}
+
 .nav{
 
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding: 0px;
+    font: roboto;
 }
 
+.logo{
+    padding: 0px 0px 0px 50px;
+}
+
+.links{
+    padding: 0px 50px 0px 0px;
+}
 .description{
     background-color: #1F2937;
     
@@ -12,4 +28,16 @@
 
 ul{
     display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 48px;
+    color: #F9F8FA;
+    font-weight: 900;
 }
