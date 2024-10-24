@@ -15,21 +15,36 @@ body{
 }
 
 .logo{
-    padding: 0px 0px 0px 50px;
+    flex: 1 1 50%;
+    padding: 0px 0px 0px 100px;
+    height: 50px;
+    width: 50px;
 }
 
 .links{
-    padding: 0px 50px 0px 0px;
+    padding: 0px 100px 0px 0px;
 }
 .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1F2937;
+    gap: 250px;
+    padding: 0px 0px 0px 100px;
     
+}
+
+.Coffee_Image{
+    flex: 1 1 50%;
+    height: 250px;
+    width: 300px;
+    padding: 0px 100px 0px 0px;
 }
 
 ul{
     display: flex;
     list-style-type: none;
-    gap: 16px;
+    gap: 60px;
 }
 
 a{
@@ -41,3 +56,36 @@ h1{
     color: #F9F8FA;
     font-weight: 900;
 }
+
+.Signup-container > p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.coffees{
+    height: 100px;
+    width:  100px;
+}
+
+.display{
+    background-color: #c7b198;
+}
+
+.display-box{
+    background-color: white;
+}
+
+.top{
+    padding: 0px 0px 0px 100px;
+    
+}
+
+.bottom{
+    padding: 0px 100px 0px 100px;
+    display: flex;
+    gap: 20px;
+    
+
+}
+
