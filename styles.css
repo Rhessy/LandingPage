@@ -30,10 +30,11 @@ button{
     height: 50px;
     width: 50px;
 }
-
+a{
+    color: white;
+}
 .links{
     padding: 0px 200px 0px 0px;
-    color: white;
 }
 .description{
     display: flex;
