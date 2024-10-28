@@ -73,8 +73,13 @@ h1{
 
 
 .coffees{
-    height: 100px;
-    width:  100px;
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #1F2937;
 }
 
 .display{
@@ -87,26 +92,58 @@ h1{
 }
 
 .display-box{
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    /* this was added to let the flex items grow in order to fill the space available in the flex container 
+    flex-grow: 1;
+    */
 }
 
-.top{
-    
-}
+
 
 .bottom{
     padding: 0px 300px 0px 300px;
     display: flex;
-    gap: 20px;
+    gap: 30px;
     
 
 }
 
 .review_section{
-    padding: 0px 450px 100px;
+    padding: 0px 300px 100px;
     display: flex;
     flex-direction: column;
     align-items: end;
-
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: light italic;
 }
 
+.call-to-action{
+    margin: 50px 150px 50px;
+
+    display: flex;
+    background-color: #3882F6;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.display-box > p{
+    font-size: 12px;
+    width: 120px;
+} 
+
+
+.left-action > p{
+    color: white;
+}
+
+footer{
+    background-color: #1F2937;
+    height: 50px;
+    text-align: center;
+    padding: 20px 0px 0px;
+    color: white;
+
+}
